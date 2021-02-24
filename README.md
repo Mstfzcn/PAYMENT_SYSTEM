@@ -1,7 +1,7 @@
 # PAYMENT_SYSTEM
 Ödeme Sistemi Projesi - Abonelerin ve gişe çalışanların fatura takibini ve ödemelerini yapabildikleri, ekstrelerini görüntüleyebildikleri bir web uygulamasıdır.
 
-##Projenin Çalıştırılması İçin Gerekenler;
+Projenin Çalıştırılması İçin Gerekenler,
 
 1-) Öncelikle DB dizini altında bulunan "PAYMENT_SYSTEM.sql" ya da "PAYMENT_SYSTEM.bak" dosyalarından birisini kullanarak gerekli veritabanı "PAYMENT_SYSTEM" adıyla lokalinizde çalışan sunucunuzda MS-SQL Server Yönetim Sistemi ile oluşturulur.
 
@@ -11,7 +11,7 @@
 
 4-) Tarayıcınızda web servisin başarılı bir şekilde çalıştığını görüntüledikten sonra "PaymentSystemWeb" projesi açılır.
 
-5-) "PaymentSystemWeb" projesi içerisindeki "Web.config" dosyasında aşağıdaki bölüm web portalin Abone veya Admin (Gişe Çalışanı) kullanımına uygun olarak açılmasını değiştirebileceğimiz bölümdür;
+5-) "PaymentSystemWeb" projesi içerisindeki "Web.config" dosyasında aşağıdaki bölüm web portalin Abone veya Admin (Gişe Çalışanı) kullanımına uygun olarak açılmasını değiştirebileceğimiz bölümdür,
 
   <system.webServer>
   
@@ -26,7 +26,6 @@
     </defaultDocument>
 	
   </system.webServer>
-  <system.codedom>
   
   Bu kısımda "value" seçeneğini "LoginOfficer.aspx" olarak ayarlarsak portal gişe çalışanının, "LoginSubscriber.aspx" olarak ayarlarsak ise abonenin giriş yapabileceği şekilde açılacaktır.
   
@@ -38,7 +37,7 @@
 			 
 			 Şifre : 123
 
-7-) Giriş yaptıktan sonra açılan ana sayfadan 4 farklı ekrana geçiş yapılabilmektedir. Bu ekranlardan; 
+7-) Giriş yaptıktan sonra açılan ana sayfadan 4 farklı ekrana geçiş yapılabilmektedir. Bu ekranlardan,
     
 	- Sisteme yeni bir abone ekleme,
 	
@@ -65,7 +64,7 @@
 	T.C. Kimlik Numarası : 12345678900
 			       Şifre : 111
 				   
-9-) Giriş yaptıktan sonra açılan ana sayfadan 2 farklı ekrana geçiş yapılabilmektedir. Bu ekranlardan; 
+9-) Giriş yaptıktan sonra açılan ana sayfadan 2 farklı ekrana geçiş yapılabilmektedir. Bu ekranlardan,
     
 	- Günü gelmiş ve ödenmemiş fatura bilgilerini görüntüleyip, fatura ödemesi yapma,
 	
