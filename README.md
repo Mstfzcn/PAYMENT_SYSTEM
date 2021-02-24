@@ -24,7 +24,6 @@ Projenin Çalıştırılması İçin Gerekenler;
   
 6-) "Web.config" dosyasındaki ilgili kısmı gişe çalışanının giriş yapabileceği şekilde ayaralayarak "PaymentSystemWeb" projesini çalıştırdıktan sonra "Gişe Giriş" ekranı açılacaktır. Bu ekrandan mevcut veritabanında tanımlı olan gişe çalışanı kullanıcı bilgileri ile giriş yapabilirsiniz.
 	Gişe Çalışanı
-	-------------
 	Kullanıcı Kodu : MSTFZCN
 			 Şifre : 123
 
@@ -36,14 +35,12 @@ Projenin Çalıştırılması İçin Gerekenler;
 	
 	Mevcut veritabanında varolan kullanıcı bilgileri aşağıda verilmiştir. Bu kullanıcılar üzerinden işlemler yapılabilir.
 	T.C. Kimlik/Vergi Numaraları
-	----------------------------
 	12345678900 - Bireysel Müşteri
 	1234567890  - Tüzel Müşteri
 	12345678901 - Bireysel Müşteri
 	
 8-) "Web.config" dosyasındaki ilgili kısmı abonenin giriş yapabileceği şekilde ayaralayarak "PaymentSystemWeb" projesini çalıştırdıktan sonra "Abone Giriş" ekranı açılacaktır. Bu ekrandan mevcut veritabanında tanımlı olan abone kullanıcı bilgileri ile giriş yapabilirsiniz.
 	Abone
-	-------------
 	T.C. Kimlik Numarası : 12345678900
 			       Şifre : 111
 				   
