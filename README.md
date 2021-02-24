@@ -13,6 +13,7 @@ Projenin Çalıştırılması İçin Gerekenler,
 
 5-) "PaymentSystemWeb" projesi içerisindeki "Web.config" dosyasında aşağıdaki bölüm web portalin Abone veya Admin (Gişe Çalışanı) kullanımına uygun olarak açılmasını değiştirebileceğimiz bölümdür,
 
+...
   <system.webServer>
   
     <defaultDocument>
@@ -26,6 +27,7 @@ Projenin Çalıştırılması İçin Gerekenler,
     </defaultDocument>
 	
   </system.webServer>
+...  
   
   Bu kısımda "value" seçeneğini "LoginOfficer.aspx" olarak ayarlarsak portal gişe çalışanının, "LoginSubscriber.aspx" olarak ayarlarsak ise abonenin giriş yapabileceği şekilde açılacaktır.
   
