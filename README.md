@@ -7,7 +7,7 @@ Projenin Çalıştırılması İçin Gerekenler,
 
 2-) Ardından yeni oluşturulan "PAYMENT_SYSTEM" veritabanı altında "Job_INSERT_INVOICE.sql" Job oluşturma script'i çalıştırılarak fatura oluşturma Job'ı sisteme dahil edilir. (Fatura oluşturma Job'ı her ay sonunda sistemde aktif olan kullanıcıların faturalarını sisteme ekler.)
 
-3-) Veritabanu işlemleri başarılı bir şekilde tamamlandıktan sonra "PaymentSystem.WebService" dizininde bulunan web servis projesi hiçbir değişiklik yapmadan çalıştırılır.
+3-) Veritabanı işlemleri başarılı bir şekilde tamamlandıktan sonra "PaymentSystem.WebService" dizininde bulunan web servis projesi hiçbir değişiklik yapmadan çalıştırılır.
 
 4-) Tarayıcınızda web servisin başarılı bir şekilde çalıştığını görüntüledikten sonra "PaymentSystemWeb" projesi açılır.
 
